@@ -4,7 +4,7 @@ const CursorTracker = () => {
   const [dotPos, setDotPos] = useState({ x: 0, y: 0 });
   const [ringPos, setRingPos] = useState({ x: 0, y: 0 });
   const [isVisible, setIsVisible] = useState(true);
-  const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768);
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth > 1040);
 
   useEffect(() => {
     const handleResize = () => {
