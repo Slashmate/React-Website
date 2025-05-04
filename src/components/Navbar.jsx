@@ -42,7 +42,7 @@ const Navbar = () =>{
   };
   return(
     <>
-    <nav>
+    <nav >
       <div className="hidden md:flex justify-between flex-row gap-7">
         <NavLinks />
       </div>

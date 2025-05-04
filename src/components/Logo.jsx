@@ -1,7 +1,7 @@
 
 const Logo = () => {
     return (
-      <div className="h-100rm w-5">
+      <div className="h-max w-20 mix-blend-multiply">
         <img src="src/components/assets/images/logo.jpg" alt="logo" />
       </div>
     );
