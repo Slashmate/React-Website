@@ -33,6 +33,8 @@ app.post('/api/contact', async (req, res) => {
     });
 
     // Create a more detailed email template
+    // Create a more detailed email template
+
     const emailContent = `
       Contact Form Submission
 

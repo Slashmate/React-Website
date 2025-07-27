@@ -7,7 +7,7 @@ const Footer = () => {
                 {/* Social Icons */}
 
                 <div className=" text-gray-500 text-sm mt-6 ">
-                    <p >
+                    <p>
                         &copy; {new Date().getFullYear()} YourCompany. All rights reserved.
                     </p>
                 </div>
